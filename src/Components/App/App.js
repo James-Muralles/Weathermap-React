@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import './App.css';
-import map from '../Map/Map'
+import Map from '../Map/Map'
 
 class App extends React.Component{
   constructor(props) {
@@ -15,7 +15,7 @@ class App extends React.Component{
 
   render(){
 return (
-    <map/>
+    <Map/>
 )
   }
 }

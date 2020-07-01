@@ -1,4 +1,29 @@
-const mapboxToken = 'pk.eyJ1IjoiamltbXktbXVyYWxsZXMiLCJhIjoiY2s3a3gwNDA2MDFqcTNrcnI1aXl5bHBnMiJ9.sOfunMTqJXG27iCEkSzlnA';
+import React from "react";
+import styled from "styled-components";
 
-const gitHubKey = '9e0153db6d397aff3f3a6622f9fdd956ad4b546b';
+import { MapboxGLMap } from ".";
+
+const Header = styled("header")`
+  width: 100vw;
+  height: 80px;
+  border-bottom: 2px solid #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const Layout = () => {
+    return (
+        <>
+            <Header>
+                <h1>Mapbox GL Components</h1>
+            </Header>
+            <main>
+                <MapboxGLMap />
+            </main>
+        </>
+    );
+};
+
+export default Layout;
 
