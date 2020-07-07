@@ -1,23 +1,18 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import './App.css';
-import Map from '../Map/Map'
+import MapBox from "../Map/MapBox";
+import Map from "../Map/Map";
 
-class App extends React.Component{
-  constructor(props) {
-    super(props);
-    this.state = {
-      lng: 5,
-      lat: 34,
-      zoom: 2
-    };
-  }
+class App extends React.Component {
 
-  render(){
-return (
-    <Map/>
-)
-  }
+    render() {
+        return (
+
+            <MapBox className="map"/>
+
+        )
+    }
 }
 
 export default App;

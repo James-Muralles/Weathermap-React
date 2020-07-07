@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .env
-DarkSky.js
-MapBox.js
+#DarkSky.js
+#MapBox.js

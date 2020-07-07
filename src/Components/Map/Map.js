@@ -3,12 +3,12 @@ import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 const styles = {
-    width: "100vw",
-    height: "calc(100vh - 80px)",
-    position: "absolute"
+    width: "50vw",
+    height: "calc(400px)",
+    position: "absolute",
 };
 
-const Map = () => {
+const Map= () => {
     const [map, setMap] = useState(null);
     const mapContainer = useRef(null);
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { MapboxGLMap } from ".";
+import Map from "../Map/Map";
 
 const Header = styled("header")`
   width: 100vw;
@@ -12,18 +12,18 @@ const Header = styled("header")`
   align-items: center;
 `;
 
-const Layout = () => {
+const MapBox = () => {
     return (
         <>
             <Header>
                 <h1>Mapbox GL Components</h1>
             </Header>
             <main>
-                <MapboxGLMap />
+                <Map />
             </main>
         </>
     );
 };
 
-export default Layout;
+export default MapBox;
 
