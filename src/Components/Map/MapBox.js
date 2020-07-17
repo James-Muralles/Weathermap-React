@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Map from "../Map/Map";
 
 const Header = styled("header")`
-  width: 100vw;
+  width: 500px;
   height: 80px;
   border-bottom: 2px solid #222;
   display: flex;
@@ -14,14 +14,16 @@ const Header = styled("header")`
 
 const MapBox = () => {
     return (
-        <>
+        <div>
+
             <Header>
                 <h1>Mapbox GL Components</h1>
             </Header>
+
             <main>
                 <Map />
             </main>
-        </>
+        </div>
     );
 };
 

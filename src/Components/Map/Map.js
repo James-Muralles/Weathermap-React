@@ -3,9 +3,9 @@ import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 const styles = {
-    width: "50vw",
-    height: "calc(400px)",
-    position: "absolute",
+    width: "500px",
+    height:"400px"
+    // position: "absolute",
 };
 
 const Map= () => {
