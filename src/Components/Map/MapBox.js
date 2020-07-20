@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Map from "../Map/Map";
 
 const Header = styled("header")`
-  width: 500px;
+  width: 80vw;
   height: 80px;
   border-bottom: 2px solid #222;
   display: flex;

@@ -3,20 +3,31 @@ import logo from '../../logo.svg';
 import './App.css';
 import MapBox from "../Map/MapBox";
 import Map from "../Map/Map";
+import Forecast from "../Forecast/Forecast";
 
 class App extends React.Component {
 
     render() {
         return (
-<div style={style}>
+            <div style={style}>
 
-            <MapBox  className="map"/>
-</div>
+            <div >
+
+
+                    <Forecast/>
+
+
+                <div>
+                <MapBox className="map"/>
+                </div>
+            </div>
+            </div>
 
         )
     }
 }
-const style={
+
+const style = {
     // position: 'absolute',
     // left: '50%',
     // top: '50%',

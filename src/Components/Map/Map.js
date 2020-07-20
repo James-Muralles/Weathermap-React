@@ -3,7 +3,7 @@ import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 const styles = {
-    width: "500px",
+    width: "80vw",
     height:"400px"
     // position: "absolute",
 };
