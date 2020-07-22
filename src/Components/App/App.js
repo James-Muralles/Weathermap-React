@@ -18,7 +18,7 @@ class App extends React.Component {
 
 
                 <div>
-                <MapBox className="map"/>
+                <Map className="map"/>
                 </div>
             </div>
             </div>
